@@ -10,10 +10,7 @@
     "preview": "vite preview",
     "clean": "gts clean",
     "compile": "tsc",
-    "fix": "gts fix",
-    "prepare": "yarn.cmd run compile",
-    "pretest": "yarn.cmd run compile",
-    "posttest": "yarn.cmd run lint"
+    "fix": "gts fix"
   },
   "dependencies": {
     "react": "^18.2.0",
