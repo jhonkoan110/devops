@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "gts lint && npx stylelint  \"**/*.css\"",
+    "lint": "gts lint && npx stylelint  \"**/*.css\" && yarn eslint .",
     "preview": "vite preview",
     "clean": "gts clean",
     "compile": "tsc",
